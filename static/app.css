@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Ingram Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://personal-bucket.fra1.cdn.digitaloceanspaces.com/Ingram_Mono_Regular.otf) format('otf');
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+:root{
+ --color-dark: #202020;
+  --color-bg: #E0E0E0;
+  --color-light: #F4F4F4;
+}
+
+body {
+  font-family: 'Ingram Mono', monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-dark);
+  background-color: var(--color-bg);
+}
+
+a{
+  text-decoration:underline;
+  color: var(--color-dark);
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: var(--color-dark);
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.small {
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+section {
+  margin-top: 40px;
+  background-color: var(--color-light);
+  padding: 32px 40px;
+  width: 720px;
+}
+
+img{
+  filter: grayscale(100%);
+}
+.image {
+  height:100vh;
+  background-image: url("random_gif.gif");
+  background-size: cover;
+		width: 320px;
+		height: 380px;
+		float: right;
+		margin: 0 0 16px 16px;
+}
